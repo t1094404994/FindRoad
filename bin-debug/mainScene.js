@@ -15,6 +15,8 @@ var mainScene = (function (_super) {
     __extends(mainScene, _super);
     function mainScene() {
         var _this = _super.call(this) || this;
+        _this.touchChildren = true;
+        _this.touchEnabled = false;
         _this.createdScene();
         return _this;
     }
@@ -23,8 +25,8 @@ var mainScene = (function (_super) {
         this.backGround = new backgroundScene();
         this.addChild(this.backGround);
     };
-    mainScene.sceneW = 800;
-    mainScene.sceneH = 1200;
+    mainScene.sceneW = 477;
+    mainScene.sceneH = 800;
     return mainScene;
 }(egret.DisplayObjectContainer));
 __reflect(mainScene.prototype, "mainScene");

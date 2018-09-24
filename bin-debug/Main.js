@@ -43,6 +43,12 @@ var Main = (function (_super) {
     __extends(Main, _super);
     function Main() {
         var _this = _super.call(this) || this;
+        _this.width = 800;
+        _this.height = 800;
+        _this.x = 0;
+        _this.y = 0;
+        _this.touchEnabled = false;
+        _this.touchChildren = true;
         _this.addChild(new mainScene());
         return _this;
     }

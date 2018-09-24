@@ -30,6 +30,12 @@
 class Main extends eui.UILayer {
     constructor(){
         super();
+        this.width=800;
+        this.height=800;
+        this.x=0;
+        this.y=0;
+        this.touchEnabled=false;
+        this.touchChildren=true;
         this.addChild(new mainScene());
     }
 }
