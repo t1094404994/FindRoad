@@ -9,8 +9,9 @@
 	],
 	"game": [
 		"bin-debug/backgroundScene.js",
-		"bin-debug/findRoad.js",
+		"bin-debug/FindRoad.js",
 		"bin-debug/Main.js",
-		"bin-debug/mainScene.js"
+		"bin-debug/mainScene.js",
+		"bin-debug/Point.js"
 	]
 }
